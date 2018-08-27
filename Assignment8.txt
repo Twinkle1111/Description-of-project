@@ -1,0 +1,5 @@
+In the RoleServiceImpl class in the save() method we have taken a variable .
+If that variable is null or if the rollname is null or is empty value return true then it will throw a UserDefined Exception EmptyDataValidationException and it will show role name required.
+If getFunctions() method return null or it's size is 0 then it will generate a userdefined exception EmptyDataValidationException
+which will show function list required.The return type of getFunction() is generic type set<Function>
+Then we call the method save() within try method and handle the exception through catch and if that Exception is handled then it will show a status which we have written in the class ServiceStatus and we have taken four variables there with assigning the values.
